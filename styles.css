@@ -22,7 +22,7 @@ html {
   padding: 0 25px;
 }
 .header-title {
-  color: red;
+  color: #c70205;
   width: 100%;
   padding: 1rem 0;
 }
@@ -60,7 +60,7 @@ nav ul li a {
   color: white;
 }
 nav ul li a:hover {
-  color: red;
+  color: #c70205;
 }
 @media screen and (min-width: 600px) {
   .header-navbar {
@@ -127,26 +127,33 @@ nav ul li a:hover {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  gap: 3rem;
 }
 .singelimage img {
   width: 24rem;
   height: 35rem;
-  padding: 0 1rem 1rem;
+  padding: 1rem 1rem solid black;
+  border: 1rem solid black;
+  transition: 0.9s ease-in-out;
 }
 .singelimage img:hover {
   opacity: 0.5;
   transition: 0.9s;
+  transform: translateY(-5px);
 }
 
 /*This is css styling for footer*/
 footer {
-  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: red;
+  background-color: black;
   color: white;
   text-align: center;
+  border-left: 2rem solid black;
+  border-right: 2rem solid black;
+  font-size: 1.5rem;
+  color: #c70205;
 }
 
 @media screen and (min-width: 900px) {
