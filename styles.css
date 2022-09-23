@@ -139,12 +139,26 @@ nav ul li a:hover {
 
   transition: 0.9s ease-in-out;
 }
-.singelimage img:hover {
+.singelimage :hover {
   opacity: 0.5;
   transition: 0.9s;
   transform: translateY(-5px);
 }
-
+.logo1 {
+  text-align: center;
+  background-color: wheat;
+  border: 1rem solid white;
+}
+.logo2 {
+  text-align: center;
+  background-color: wheat;
+  border: 1rem solid white;
+}
+.logo3 {
+  text-align: center;
+  background-color: wheat;
+  border: 1rem solid white;
+}
 /*This is css styling for footer*/
 footer {
   left: 0;
