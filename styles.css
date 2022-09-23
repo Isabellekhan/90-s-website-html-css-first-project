@@ -130,10 +130,9 @@ nav ul li a:hover {
   gap: 3rem;
 }
 .singelimage img {
-  width: 24rem;
-  height: 35rem;
-  padding: 1rem 1rem solid black;
-  border: 1rem solid black;
+  width: 19rem;
+  height: 30rem;
+
   transition: 0.9s ease-in-out;
 }
 .singelimage img:hover {
