@@ -65,17 +65,25 @@ nav ul li a {
 nav ul li a:hover {
   color: #c70205;
 }
+nav ul li:hover {
+  color: #c70205;
+}
 
 /*This is css styling for main*/
 
 .aside {
-  background-color: aqua;
+  /*Styling for the JS toggle popup, when I click About. */
+  background-color: black;
 
   width: 100%;
   padding: 1rem 2rem;
   transition: color 1.5s;
   transform: translateY(-100%);
   display: none;
+  border-left: 2rem solid black;
+  border-right: 2rem solid black;
+  text-align: center;
+  color: white;
 }
 .aside--active {
   transform: translateY(0%);
@@ -140,6 +148,9 @@ nav ul li a:hover {
   gap: 3rem;
   padding-bottom: 2rem;
 }
+.galleryarea1 {
+  padding-top: 2rem;
+}
 .singelimage img {
   width: 19rem;
   height: 30rem;
@@ -158,6 +169,7 @@ nav ul li a:hover {
   background-color: wheat;
   border: 1rem solid white;
   margin-top: 0.5rem;
+  color: black;
 }
 .logo2 {
   text-align: center;
@@ -171,6 +183,7 @@ nav ul li a:hover {
   border: 1rem solid white;
   margin-top: 0.5rem;
 }
+
 /*This is css styling for footer*/
 footer {
   left: 0;

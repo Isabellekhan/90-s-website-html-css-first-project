@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <meta name="description" content="This is my 90's mood board" />
     <!--Link to css-->
     <link rel="stylesheet" href="styles.css" />
   </head>
@@ -14,7 +15,6 @@
       <div class="header-container">
         <div class="header-title">
           <h1>90'S FASHION</h1>
-        
         </div>
         <!-- navbar made in flexbox-->
         <div class="header-navbar">
@@ -23,22 +23,25 @@
               <li><a href="index.html">Home</a></li>
               <li><a href="index.html">Contact</a></li>
               <li id="navToggleButton">About</li>
+              <!-- this is ID I use in JS-->
               <li><a href="index.html">Inspo</a></li>
             </ul>
           </nav>
-   
         </div>
-        
       </div>
     </header>
-   
+
     <!-- Start of main -->
     <main class="main">
-      <div class="aside" id="aside"> THIS IS A popup</div>
+      <div class="aside" id="aside">
+        About:<br />
+        This page is for you to find 90's inspiration.<br />
+        Here you can find outfit ,hair and makeup inspiration. <br />I wanted
+        this topic because I have always been intrested in fashion
+      </div>
       <div class="welcome">
-        
         <!-- This is a div for the intro welcome-->
-        
+
         <h1>WELCOME</h1>
         <p>
           This page is about fashion. Here you can find some inspiration from
@@ -49,34 +52,44 @@
       <div class="wrapper">
         <h2>INSPIRATION GALLERY</h2>
         <div class="galleryarea">
-           <div class="singelimage"><figure>
-           <img src="Image1.jpg" alt="This "/> <figcaption class="logo1">OUTFITS</figcaption></figure>
-           
-        </div>
-        <div class="singelimage"><figure><img src="Image2.jpg" alt="This is "/><figcaption class="logo2">MAKEUP</figcaption></figure>
-        </div>
+          <div class="singelimage">
+            <figure>
+              <a href="outfit.html"
+                ><img src="Image1.jpg" alt="This " />
+                <figcaption class="logo1">OUTFITS</figcaption></a
+              >
+            </figure>
+          </div>
+          <div class="singelimage">
+            <figure>
+              <img src="Image2.jpg" alt="This is an image of makeup " />
+              <figcaption class="logo2">MAKEUP</figcaption>
+            </figure>
+          </div>
 
-
-        <div class="singelimage"><figure><img src="Image3.jpg" alt="This is as"/><figcaption class="logo3">HAIR</figcaption>
-        </figure></div>
+          <div class="singelimage">
+            <figure>
+              <img src="Image3.jpg" alt="This is as" />
+              <figcaption class="logo3">HAIR</figcaption>
+            </figure>
+          </div>
+        </div>
       </div>
     </main>
     <!-- Start of footer-->
 
     <footer>
       <div class="madeby">MADE BY ISABELLE</div>
-    <ul class="footerlist">
-      <li>Work with us</li>
-      <li>Instagram</li>
-      <li>Facebook</li>
-      <li>Q&A</li>
-    </ul>
-    <form>
-      <input type="text"/>
-      <button>serch
-        
-      </button>
-    </form>
+      <ul class="footerlist">
+        <li>Work with us</li>
+        <li>Instagram</li>
+        <li>Facebook</li>
+        <li>Q&A</li>
+      </ul>
+      <form>
+        <input type="text" />
+        <button>serch</button>
+      </form>
     </footer>
     <script src="script.js"></script>
   </body>
